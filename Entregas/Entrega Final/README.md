@@ -1,13 +1,13 @@
 
-# 🧠 Proyecto Final — Data Science I  
-## Nubyx - Análisis y Predicción de Conversión de Leads  
+# Proyecto Final — Data Science I  
+## Machine Learning aplicado a leads en Telecomunicaciones
 **Autora:** Angela Barrutia  
 **Curso:** Data Science I – Coderhouse  
 **Año:** 2025
 
 ---
 
-### 📌 Descripción
+### Descripción
 
 Este proyecto tiene como objetivo aplicar técnicas de ciencia de datos para analizar el comportamiento de los leads comerciales de **Nubyx**, una empresa peruana de telecomunicaciones. Se utiliza un dataset real del periodo 2023-2024 que incluye variables geográficas, comerciales, técnicas y de adquisición.
 
@@ -24,13 +24,13 @@ Se implementa un flujo completo de análisis que incluye:
 
 ---
 
-### 🎯 Objetivo
+### Objetivo
 
 Predecir si un lead se convertirá en cliente, basándonos en variables como cobertura, tipo de vivienda, región, velocidad contratada, fuente de ingreso y otras características.
 
 ---
 
-### 📁 Contenido
+### Contenido
 
 ```
 Entrega Final/
@@ -40,7 +40,7 @@ Entrega Final/
 
 ---
 
-### 🚀 Cómo usar este proyecto
+### Cómo usar este proyecto
 
 1. Abrir el notebook en Google Colab o Jupyter.
 2. Asegurarse de tener las siguientes librerías instaladas:
@@ -51,14 +51,13 @@ Entrega Final/
 
 ---
 
-### 🔍 Notas importantes
+### Notas importantes
 
 - La variable objetivo es `OBJETIVO_CONTRATO`, que representa si un lead cerró o no contrato.
-- Se filtraron los casos **"En cobertura"**, ya que los leads sin cobertura no pueden convertirse en clientes.
 - El modelo de Random Forest mostró mejor desempeño general frente a la regresión logística.
 
 ---
 
-### ✅ Resultado
+### Resultado
 
 El modelo final permite detectar con buena precisión qué leads tienen alta probabilidad de conversión, lo cual puede ser utilizado para optimizar campañas comerciales.
